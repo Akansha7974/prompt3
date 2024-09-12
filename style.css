@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+}
+.upper{
+    height: 49vh;
+    width: 100vw;
+    background-image: url(https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https://substack-post-media.s3.amazonaws.com/public/images/a15134b2-8c11-4190-b90e-f63dd058d739_1501x1001.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:200px ;
+    padding-left: 20px;
+    text-shadow: 2px 2px 3px black;
+    color: white; 
+    opacity: 0.9;
+}
+.upper h1{
+    padding: 20px 0;
+    font-size: 70px;
+    
+}
+.icons{
+    padding:10px 20px;
+    width: 20vw;
+    display: flex; 
+    justify-content: space-between;
+}
+.icons h2{
+    font-size: 50px;
+    color: green;
+}
+.icons h1{
+    font-size: 40px;
+    color: grey;
+}
+h1{
+    color: white;
+    padding: 10px 20px;
+    font-size: 50px;
+}
+.songs {
+    color: white;
+    
+}
+.songs div{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40px;
+}
+.songs div img{
+    height: 50px;
+    width: 50px;
+}
+hr{
+    margin: 10px;
+}
+
